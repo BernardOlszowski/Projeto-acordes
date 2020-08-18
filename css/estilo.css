@@ -1,0 +1,96 @@
+body{
+	margin:0 auto;
+}
+
+/*		Conteudo		*/
+
+/*			Cabeçalho			*/
+#conteudo{
+	/*border: 1px solid red;*/
+	width: 1300px;
+	height: 200px;
+	margin:0 auto;
+	background: #0475C1;
+	color: #fff;
+	border-radius: 20px 20px 0 0;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+
+header ul{
+	list-style: none;
+	background: #015892;
+	float: right;
+	border-radius: 5px;
+	margin-right: 50px;
+}
+
+
+ul a{
+	color: white;
+	font-size: 1.3em;
+	display: block;
+	padding: 12px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+.barra-h{
+	/*border: 1px solid red;*/
+	margin: 20px;
+	padding: 0;
+}
+
+ul.barra-h li{
+	float:left;
+}
+
+header h1{
+	margin-left: 30px;
+	/*margin-top: 20px;*/
+	margin-bottom: 30px;
+	/*border:1px solid red;*/
+}
+
+ul.barra-h a:hover{
+	background: white;
+	color: #0475C1;
+	text-decoration: none;
+}
+
+/*			postagens			*/
+
+#postagens{
+	width: 1300px;
+	margin:0 auto;
+	padding-left: 30px;
+	border-left: 1px solid gray;
+	border-right:1px solid gray;
+	border-bottom: 1px solid gray;
+	border-radius: 0 0 5px 5px;
+	padding-top: 50px;
+}
+
+
+/*				acordes				*/
+
+.acordes{
+	float: left;
+	margin: 0 40px;
+}
+
+.acorde{
+	float: left;
+	border: 3px solid #0475C1;
+	border-radius: 15px;
+	width: 299px;
+	height: 150px;
+	padding: 20px;
+	text-align: center;
+	/*margin:0 30px 30px 30px;*/
+	margin: 0 20px 30px 50px;
+}
+
+
