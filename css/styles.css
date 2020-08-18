@@ -8,7 +8,7 @@ body{
 #conteudo{
 	/*border: 1px solid red;*/
 	width: 1300px;
-	height: 200px;
+	height: 200px; /*use sempre valores de width e height relativos à viewport pra que o conteudo possa estar adaptado ao tamanho do dispositivo exemplo: vm ou pm*/
 	margin:0 auto;
 	background: #0475C1;
 	color: #fff;
@@ -21,7 +21,7 @@ body{
 header ul{
 	list-style: none;
 	background: #015892;
-	float: right;
+	float: right; /*evite usar float, pesquise sobre flexbox*/
 	border-radius: 5px;
 	margin-right: 50px;
 }
