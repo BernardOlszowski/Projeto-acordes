@@ -3,106 +3,137 @@
 	<head>
 		<title>Projeto teste</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Sempre que for usar o bootstrap, recomendo importar dessa maneira. Voce nao precisa hospedar os arquivos no seu servidor, o site vai demorar mais pra carregar sem necessidade -->
 	</head>
 	<body>
 
 		<div id="conteudo">
-
 			<header>
 				<h1>acordes.com</h1>
-
 				<ul class="barra-h">
 					<li><a href="">Home</a></li>
 					<li><a href="">Campos armônicos</a></li>
 					<li><a href="">Contato</a></li>
 				</ul>
-
 			</header>
-
 			<footer style="clear:both"></footer>
 		</div>
+		<!-- Usando id e classes corretamente. Bacana! -->
 		<div id="postagens">
-
-			
 			<article>
-				
 				<h2>Site dedicado a visualização de acordes guitarra e violão</h2>
-
 				<br><br><br>
-
+				<!-- Voce pode usar as classes do bootstra pra construir linhas e colunas responsivas olha como fica aqui embaixo -->
+				<div class="acordes container-fluid">
+					<div class="row">
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+						<div class="col-md">
+							<div class="acorde">
+								<h4>Acordes de Dó(C)</h4>
+								<br>
+								<a class="btn btn-outline-info" href="">Ver acordes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Fim do grid responsivo -->
 				<div class="acordes">
-					
 					<div class="acorde">
-
 						<h4>Acordes de Dó(C)</h4>
-
 						<br>
-
 						<a class="btn btn-outline-info" href="">Ver acordes</a>
-
 					</div>
-
 					<div class="acorde">
-
 						<h4>Acordes de Ré(D)</h4>
-
 						<br>
-
 						<a class="btn btn-outline-info" href="">Ver acordes</a>
-
 					</div>
-
 					<div class="acorde">
-
 						<h4>Acordes de Mi(E)</h4>
-
 						<br>
-
 						<a class="btn btn-outline-info" href="">Ver acordes</a>
-
 					</div>
-
 					<div class="acorde">
-
 						<h4>Acordes de Fá(F)</h4>
-
 						<br>
-
 						<a class="btn btn-outline-info" href="">Ver acordes</a>
-
 					</div>
-
 					<div class="acorde">
-
 						<h4>Acordes de Sol(G)</h4>
-
 						<br>
-
 						<a class="btn btn-outline-info" href="">Ver acordes</a>
-
 					</div>
-
 					<div class="acorde">
-
 						<h4>Acordes de Lá(A)</h4>
-
 						<br>
-
 						<a class="btn btn-outline-info" href="">Ver acordes</a>
-
 					</div>
-
 					<div class="acorde">
-
 						<h4>Acordes de Si(B)</h4>
-
 						<br>
-
 						<a class="btn btn-outline-info" href="">Ver acordes</a>
-
 					</div>
 				</div>
 				<footer style="clear:both"></footer>
@@ -110,3 +141,5 @@
 		</div>
 </body>
 </html>
+
+<!-- Use algum plugin para o seu editor pra formatar o código pra que esteja sempre consistente. Recomendo o Prettier -->
